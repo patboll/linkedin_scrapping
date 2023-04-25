@@ -155,7 +155,8 @@ for x in lnks:
         Jobdata.append(data)
 
 df = pd.DataFrame(Jobdata)
-df.to_excel('Jobdata_linkedin.xlsx')
+df.to_csv('Jobdata_linkedin.csv')
+
 
 # Terminated the application
 driver.quit()   
