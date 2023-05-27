@@ -1,4 +1,4 @@
-# linkedin_scraping
+# linkedin_scrapping
 Scrapping Linkedin with Python and Selenium to find information and contact info regarding potential clients
 
 gets scrapping data into a csv file and also a Pandas dataframe
