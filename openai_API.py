@@ -13,7 +13,7 @@ messages = []
 for i in range(len(df3['Name'])):
     # This print statement is just to track where the program is in the loop
     print(df3['Name'].values[i])
-    API_KEY = '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'
+    API_KEY = '******* ENTER YOUR API KEY HERE ********'
     openai.api_key = API_KEY
     # Makes ChatGPT generate a personalized message
     name = df3['Name'].values[i]
